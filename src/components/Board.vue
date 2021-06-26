@@ -44,7 +44,6 @@ export default {
   },
   created() {
     this.cardList = getCards();
-    // this.cardList.forEach((card) => (card.isFlipped = true));
   },
 
   methods: {
